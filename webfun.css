@@ -1,0 +1,123 @@
+::before ::after{
+            margin:0;
+            padding:0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+
+ /* Designing body of the HTML */
+    body{
+            background: #222;
+                
+        }
+
+/* This section designs the card class variables */
+    .card{
+            width: 100%;
+            max-width: 470px;
+            max-height: fit-content;
+            background: linear-gradient(#a65acb, #00afed, #635ed6 );
+            color: #fff;
+            padding: 10%;
+            margin: 20%;
+            border-radius: 20px;
+            text-align: center;
+    }
+
+/* The city search input and button was designed here */
+    .city_search{
+            width: 100%;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+        }
+
+/* city input form section */
+
+    .city_search input{
+            border-radius: 20px;
+            background: #dfeff8;
+            outline: auto;
+            padding: 10px 25px;
+            height: 40px;
+            margin-right: 8%;
+            flex: 1;
+            color: #000;
+            font-size: 15px;
+    }
+
+    #error{
+        font-size: medium;
+        font-weight: 400;
+        font-style: italic;
+        display: none;
+    }
+ /* City search button */
+
+    .city_search button{
+            border-radius: 35%;
+            background: #dfeff8;
+            outline: auto;
+            cursor: grab;
+        }
+
+/* Designing weather icon here */
+
+    .icon_weather{
+            width: 220px;
+            margin-top: 30px;
+            display: none;
+        }
+
+/* h1 under the weather icon */
+
+    h1{
+        font-size: 60px;
+        font-weight: 70px;
+        margin-top: 30px;
+        color: darkkhaki;
+    }
+
+/* h2 under the weather icon */
+    h2{
+        font-size: 40px;
+        font-weight: 50px;
+        margin-top: -10px;}
+
+        /* sizing of the icons below */
+    .humid, .rain{
+            font-size: 10px;
+            margin-top: 0%;
+            }
+
+/* 
+Adjusting details of the bottom icons */
+
+    .details{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 0%;
+            margin: 0 0%;
+            margin-top: 90px;
+            }
+
+/* Sizing and display of bottom columns */
+
+    .col{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        margin-right: 30%;
+       
+    }
+
+    .rain, .humid{
+        margin: 0%;
+        line-height: 0%;
+    }
+
+    .p1{
+        font-size: 15px;
+        font-weight: 900;
+    }
